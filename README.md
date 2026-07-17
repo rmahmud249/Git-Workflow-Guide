@@ -221,60 +221,7 @@ Deletes the branch from GitHub.
 
 ---
 
-# Complete Git Workflow
 
-```text
-Create Project
-      │
-      ▼
-git init
-      │
-      ▼
-git add .
-      │
-      ▼
-git commit -m "Initial commit"
-      │
-      ▼
-Create GitHub Repository
-      │
-      ▼
-git remote add origin <repository-url>
-      │
-      ▼
-git push -u origin main
-      │
-      ▼
-Create Branch
-git switch -c Branch-1
-      │
-      ▼
-Edit Files
-      │
-      ▼
-git add .
-      │
-      ▼
-git commit -m "Added new feature"
-      │
-      ▼
-git push -u origin Branch-1
-      │
-      ▼
-git switch main
-      │
-      ▼
-git merge Branch-1
-      │
-      ▼
-git push origin main
-      │
-      ▼
-(Optional)
-Delete Branch
-```
-
----
 
 # Best Practices
 
