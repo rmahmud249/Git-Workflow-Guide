@@ -97,7 +97,7 @@ Creates a new branch.
 
 OR
 
-Method 2 (Recommended)
+Method 2 
 
 ```bash
 git switch -c Branch-1
@@ -183,7 +183,7 @@ Uploads the merged changes.
 
 ---
 
-# Delete Branch (Optional)
+# Delete Branch 
 
 ## Delete Local Branch
 
@@ -221,19 +221,3 @@ Deletes the branch from GitHub.
 
 ---
 
-
-
-# Best Practices
-
-- Commit frequently with meaningful commit messages.
-- Create a new branch for every feature or bug fix.
-- Pull the latest changes before starting new work.
-- Merge completed branches into `main`.
-- Delete branches after they are merged.
-- Use `git status` regularly to check your repository state.
-
----
-
-## License
-
-This project is intended as a beginner-friendly Git workflow reference.
